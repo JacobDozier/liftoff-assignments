@@ -19,9 +19,13 @@ Create Lists - Users will be able to create lists of tasks.
 View Offline - Users will also be able to view their tasks while offline.
 ### Technologies
 Java
+
 Spring Boot
+
 Thymeleaf
+
 MySQL
+
 Angular
 ### What I'll Have to Learn
 Include what you will need to learn here
