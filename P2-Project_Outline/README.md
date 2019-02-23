@@ -13,19 +13,15 @@ Simple task lists are useful, but they become infinitely more useful when you ca
 
 Research has shown that the way to get people to use software is to put it on a smartphone as an app. A full blown mobile app seems like something that is both outside the current scope of available resources and is not necessary. A web application that keeps track of tasks would be perfect as progressive web app, or PWA. This would give users the ability to view their tasks offline and perhaps to even add new tasks.
 ### Features
-User Login - Users will be able to log in with their google account.
-Create Tasks - Users will be able to create new tasks.
-Create Lists - Users will be able to create lists of tasks.
-View Offline - Users will also be able to view their tasks while offline.
+- User Login - Users will be able to log in with their google account.
+- Create Tasks - Users will be able to create new tasks.
+- Create Lists - Users will be able to create lists of tasks.
+- View Offline - Users will also be able to view their tasks while offline.
 ### Technologies
-Java
-
-Spring Boot
-
-Thymeleaf
-
-MySQL
-
-Angular
+- Java
+- Spring Boot
+- Thymeleaf
+- MySQL
+- Angular
 ### What I'll Have to Learn
 Include what you will need to learn here
