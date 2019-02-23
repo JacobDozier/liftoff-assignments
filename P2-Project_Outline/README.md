@@ -24,4 +24,5 @@ Research has shown that the way to get people to use software is to put it on a 
 - MySQL
 - Angular
 ### What I'll Have to Learn
-Include what you will need to learn here
+I will need to learn how to use Google’s api to allow for users to log in with their google account.
+I will also need to learn how to make my web app a PWA with Angular. This means I will need to learn Angular’s requirements for a PWA and how it will integrate with Spring Boot.
