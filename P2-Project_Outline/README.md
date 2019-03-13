@@ -7,23 +7,24 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-With all of the different responsibilities placing demands on our time, everyone needs a way to keep organized. For most of us a list of tasks with some intuitive connections to other people, times and topics would suffice. Also, most people will not take the time to open their computer and log in to view their tasks, so their task lists need to be accessible on the go and offline.
+Datasystem Solutions, Inc. would like more automation between the help desk software Zendesk and the time tracking app Harvest. Harvest has a plug in for Zendesk so that it makes Zendesk an all-in-one help desk. Time can be ented in Harvest app that shows on the Zendesk ticket webpage.
 
-Simple task lists are useful, but they become infinitely more useful when you can add context to your tasks(lists). These lists should be able to be shared with your family, friends, coworkers, or anyone else. Some tasks are also time/date sensitive so you should have the availability to attach these things to your tasks. Also, times/dates are really only useful, on the go, if the app pushes you a notification at the correct time/date. As hinted at above, tasks should be organized in lists so you can focus on the work at hand and not be distracted by unrelated tasks.
+Currently, Harvest remebers the last project you were working on. This handy feature is invaluable if you are using the application as intended, we are not. We are using it to track support time against client contracts and need to frequently update which project is selected in Harvest. At the very least, they would like the project to be blanked out so that no one can save time to the wrong project by accident. Ideally, they would be able to click a button and have the current organization in Zendesk populate as the project in Harvest.
 
-Research has shown that the way to get people to use software is to put it on a smartphone as an app. A full blown mobile app seems like something that is both outside the current scope of available resources and is not necessary. A web application that keeps track of tasks would be perfect as progressive web app, or PWA. This would give users the ability to view their tasks offline and perhaps to even add new tasks.
+Automating the project and task field in Harvest will eliminate user error when entering time against client support contracts. This will save the company money as client generally do not accept errors in time tracking and will not pay for shoddy book keeping. 
+
 ### Features
-- User Login - Users will be able to log in with their google account.
-- Create Tasks - Users will be able to create new tasks.
-- Create Lists - Users will be able to create lists of tasks.
-- View Offline - Users will also be able to view their tasks while offline.
-### Technologies
-- Java
-- Spring Boot
-- Thymeleaf
-- MySQL
-- Angular
-### What I'll Have to Learn
-I will need to learn how to use Google’s api to allow for users to log in with their google account.
+- Reset Harvest Projects: When a zendesk ticket is opened, the Harvest project and task are blanked out.
+- Harvest Organization Button: Place a button in the app to look at the organization that reuqested the Zendesk ticket and find the organization in the Harvest Project and populate that value.
+- Authentication Token: Obtain and pass authentication token to Harvest based on currently logged in user.
 
-I will also need to learn how to make my web app a PWA with Angular. This means I will need to learn Angular’s requirements for a PWA and how it will integrate with Spring Boot.
+### Technologies
+- Zendesk App Tools (ZAT)
+- Javascript
+- Handlebars.js
+- JQuery
+
+### What I'll Have to Learn
+I will need to learn how to use Zendesk's and Harvest's api's to read and mainpulate ticket/Harvest states.
+
+I will also need to learn the basics of Javascript, JQuery, Handlebars.js and the ZAT.
