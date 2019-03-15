@@ -8,12 +8,14 @@ For this assignment, you'll create some initial plans for your project.
 
 ### Wireframes
 
-(Include at least 3 wireframes here, adding images or files to your the repository as necessary. Format them as a bulleted/unordered list with links to the files.)
+* ![MultiZen Wireframe](liftoff-assignments/P3-Project_Planning/MultiZen Auth Wireframe.PNG)
+* ![User Authentication Wireframe](liftoff-assignments/P3-Project_Planning/MultiZen Auth Wireframe.PNG)
+* ![User Login Wireframe](liftoff-assignments/P3-Project_Planning/MultiZen Login Wireframe.PNG)
 
 ### Project Tracker
 
-(Include a link to your public Pivotal Tracker project. Be sure you have user stories added for at least your first 2-week sprint.)
+https://github.com/JacobDozier/MultiZen/projects/1
 
 ### Project Repo Link
 
-(Include a link to your project on GitHub)
+https://github.com/JacobDozier/MultiZen
