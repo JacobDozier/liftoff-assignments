@@ -8,9 +8,10 @@ For this assignment, you'll create some initial plans for your project.
 
 ### Wireframes
 
-- ![MultiZen Wireframe](liftoff-assignments/P3-Project_Planning/images/MultiZenWireframe.png)
-- ![User Authentication Wireframe](liftoff-assignments/P3-Project_Planning/images/MultiZenAuthWireframe.png)
-- ![User Login Wireframe](liftoff-assignments/P3-Project_Planning/images/MultiZenLoginWireframe.png)
+- ![MultiZen Wireframe](./images/MultiZenWireframe.png)
+- ![User Authentication Wireframe](./images/MultiZenAuthWireframe.png)
+- ![User Login Wireframe](./images/MultiZenLoginWireframe.png)
+
 ### Project Tracker
 
 https://github.com/JacobDozier/MultiZen/projects/1
