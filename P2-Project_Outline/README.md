@@ -11,12 +11,16 @@ Datasystem Solutions, Inc. would like more automation between the help desk soft
 
 Currently, Harvest remebers the last project you were working on. This handy feature is invaluable if you are using the application as intended, we are not. We are using it to track support time against client contracts and need to frequently update which project is selected in Harvest. At the very least, they would like the project to be blanked out so that no one can save time to the wrong project by accident. Ideally, they would be able to click a button and have the current organization in Zendesk populate as the project in Harvest.
 
-Automating the project and task field in Harvest will eliminate user error when entering time against client support contracts. This will save the company money as client generally do not accept errors in time tracking and will not pay for shoddy book keeping. 
+Automating the project and task field in Harvest will eliminate user error when entering time against client support contracts. This will save the company money as client generally do not accept errors in time tracking and will not pay for shoddy book keeping.
+
+This will essentially be a redesign of the Zendesk Integration by Harvest.
 
 ### Features
-- Reset Harvest Projects: When a zendesk ticket is opened, the Harvest project and task are blanked out.
-- Harvest Organization Button: Place a button in the app to look at the organization that reuqested the Zendesk ticket and find the organization in the Harvest Project and populate that value.
+- Enter time against Projects and Tasks from the Harvest database while linking those to the current user.
 - Authentication Token: Obtain and pass authentication token to Harvest based on currently logged in user.
+- Reset Harvest Projects: When a zendesk ticket is opened, the Harvest project and task are blanked out.
+- Provide a link to the user's Harvest page.
+
 
 ### Technologies
 - Zendesk App Tools (ZAT)
